@@ -11,17 +11,21 @@
         <body class="code bg-near-black near-white">
                 <div class="measure center ph2">
                         {{partial "header"}}
-                        {{ range .Pages }}
-
+                        {{ range .Pages.ByDate.Reverse }}
                         <a class="link near-white" href="{{.Permalink}}">
-                                <div class="ba b--dashed ph4 pb3 grow">
+                                <div class="ba b--dashed mb3 ph4 pb3 grow">
                                         <h4 class="f4 b ttu tracked">
                                                 {{.Title}}
                                         </h4>
+                                        <div>
+                                                {{.Params.Role}}
+                                        </div>
+                                        <div>
+                                                {{.Params.Range}}
+                                        </div>
                                         <p>
                                         {{.Description}}
                                         </p>
-
                                 </div>
                         </a>
                         {{ end }}
@@ -29,5 +33,3 @@
                 </div>
         </body>
 </html>
-
-
