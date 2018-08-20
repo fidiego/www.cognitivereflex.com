@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{{ .Site.Author }}">
+                <meta name="description" content="{What is a cognitive reflex?">
+                <title>{{ block "title" . }}
+                        <!-- Blocks may include default content. -->
+                        {{ .Site.Title }}
+                        {{ end }}</title>
+                <link rel="stylesheet" href="/static/css/tachyons.min.css"/>
+        </head>
+        <body class="monospace">
+                <!-- Code that all your templates share, like a header -->
+                {{ block "main" . }}
+                <!-- The part of the page that begins to differ between templates -->
+                {{ end }}
+                {{ block "footer" . }}
+                <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
+                {{ end }}
+        </body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cognitive Reflex dot com on Cognitive Reflex</title>
+    <link>https://cognitivereflex.com/</link>
+    <description>Recent content in Cognitive Reflex dot com on Cognitive Reflex</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://cognitivereflex.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://cognitivereflex.com/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cognitivereflex.com/</guid>
+      <description>   Cognitive Reflex  This is a website   </description>
+    </item>
+    
+  </channel>
+</rss>
