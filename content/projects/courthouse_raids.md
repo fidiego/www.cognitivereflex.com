@@ -10,7 +10,11 @@ I was invited to participate in an interactive media hackathon organized by the 
 
 The idea was to place markers and kiosks that played their stories, as a type of miexed media social biography, around the courts where they were arrested. Another component was a set of Augmented Reality (AR) presentations that ocould be accessed over the web (without the use of an application) and triggered by small markers. These AR pieces would serve as fenestrations creating windows into the opaque judicial system that so often fails to serve justice.
 
-The hackathon was pretty amazing and the whole experience allowed me to become familiar with [WebAR](https://ar-demos.c13x.cloud/).
+The hackathon was pretty amazing and the whole experience allowed me to become familiar with WebAR ([demo](https://ar-demos.c13x.cloud/)). WebAR seems useful since there is no need for an additional app, the entire project works from within a phone's browser. This is an obvious next step in advancing the medium since downloading an applicaiton can present significant friction which may discourage an audience from participating.
+
+## Files
+
+- <a class="link near-white bb" href="/files/projects/tfi/uncertain-trap.pdf" target="_blank" noreferrer>Presentation</a>
 
 ## Technologies
 
