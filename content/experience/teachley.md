@@ -9,12 +9,7 @@ date: 2014-09-16
 
 ### What did I do?
 
-- API
-- Platform
-
-### What did I learn?
-
-Everything Django, API design, python.
+I came in as the main backend dev fresh out of undergrad. I dove right into the deep end as a fullstack developer building out an entire platform in Django with a splash of Javascript. It was my first experience building a consumer product and for a full-blown business with real customers, nonetheless. It was an incredibly edifying experience to be charged with building, deployin, maintaining, and iterating on a product that was used in classboards every single day.
 
 ### Reflections
 

@@ -9,14 +9,9 @@ date: 2015-09-20
 
 ### What did I do?
 
-#### Platform
+Tons of stuff. I worked on two teams during my time at BuzzFeed. A Distributed Platform team charged with handling statistics for posts across the numerous platforms and accounts to and with which BuzzFeed posts. I also workedon the Tasty team on the numerous backend components which powered the Tasty iOS application and the tasty.co site.
 
-- Tasty
-- and other stuffs
-
-#### Tasty
-
-### What did I learn?
+I learned tons of asynchronous python with tornado and asyncio. We really pushed the boundaries here using python for some high-throughput data-intesive applications. I also did a fair amount of react doing some of the initial work on El Dashboard, an internal tool which agglomerates data from numerous data sources in one place with the goal of being a good point of entry for editors, producers, and stakeholders to see how their content is performing.
 
 ### Technologies
 
@@ -27,5 +22,3 @@ date: 2015-09-20
 - nginx
 - docker
 - react
-
-### Reflections
