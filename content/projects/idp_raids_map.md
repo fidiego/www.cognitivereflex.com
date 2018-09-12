@@ -14,12 +14,11 @@ This marked the beginning of a long collaboration with the IDP during which I he
 The first iteration of the project was a Google App script that fetched location data using Google's geocoding api to turn state, city, county information into coordinates.
 The script fetched location data then converted the spreadsheet to json and sent the payload to a lite backend which was pretty much just a python wrapper around a redis instance.
 
-Throughout the course of the project, we realized we needed a better way to bring data in to make it easier to edit and manipulate. The current workflow had too many steps and required a couple of manual interventions which proved a challenge to fast iteration.
-The IDP needed to add, edit, and publish raids to the map easily so I built a tiny CMS with Django and React.
+Throughout the course of the project, we realized we needed a better way to bring data in to make it easier to edit and manipulate. The current workflow had too many steps and required a couple of manual interventions which proved a challenge to fast iteration. The IDP needed to add, edit, and publish raids to the map easily so I built a tiny CMS with Django and React.
 The CMS handles the management of the raids and composes a json payload which is delivered by the react frontend.
 
 We used mapbox to design a map stripped out of the noisier components/layers.
-aThe IDP specifically wanted to highlight specific tactics employed by ICE during these raids so we provide them as filters to make it easy to visually discern what is going on where.
+The IDP specifically wanted to highlight specific tactics employed by ICE during these raids so we provide them as filters to make it easy to visually discern what is going on where.
 
 This was a great project to work because of the obvious impact delivering visual information can have. We plan on making the ICE Raid CMS available to other legal service providers who have heard reports of ICE raids in other regions.
 
