@@ -29,6 +29,7 @@ This was a great project to work because of the obvious impact delivering visual
 ## Featured in
 
 - <a class="link near-white bb" href="https://theintercept.com/2018/07/23/ice-raids-in-new-york/">The Intercept</a>
+- <a class="link near-white bb" href="https://www.aljazeera.com/programmes/listeningpost/2018/12/ice-watch-turning-lens-immigration-agencies-181215122046031.html">Aljazeera</a>
 - <a class="link near-white bb" href="https://www.teenvogue.com/story/what-happens-during-an-ice-raid">Teen Vogue</a>
 
 ## Technologies
