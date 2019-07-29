@@ -1,6 +1,7 @@
 #! /bin/sh
 
 echo '\n*** DEPLOY: HUGO_ENV='$(HUGO_ENV)
+hugo env
 
 echo '\n*** DEPLOY: Installing PostCSS CLI\n'
 npm install -g postcss-cli
