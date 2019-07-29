@@ -6,6 +6,8 @@ npm install -g autoprefixer
 
 echo '\n*** DEPLOY: Installing Tailwinds Theme Dependencies\n'
 cd themes/tailwinds-theme
+echo 'Directory: ' $(pwd)
+ls
 npm install
 
 echo '\n*** DEPLOY: Returning to Project Root\n'
