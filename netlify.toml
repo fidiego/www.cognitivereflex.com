@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "npm install postcss-cli && cd themes/tailwinds-theme && npm install && cd ../../ && hugo"
+command = "./deploy.sh"
 
 [context.production.environment]
 HUGO_VERSION = "0.55.6"
