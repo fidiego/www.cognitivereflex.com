@@ -1,15 +1,15 @@
 #! /bin/sh
 
-echo '*** DEPLOY: Installing PostCSS CLI'
+echo '\n*** DEPLOY: Installing PostCSS CLI\n'
 npm install postcss-cli
 
-echo '*** DEPLOY: Installing Tailwinds Theme Dependencies'
+echo '\n*** DEPLOY: Installing Tailwinds Theme Dependencies\n'
 cd themes/tailwinds-theme
 npm install
 
-echo '*** DEPLOY: Returning to Project Root'
+echo '\n*** DEPLOY: Returning to Project Root\n'
 cd ../../
 ls
 
-echo '*** DEPLOY: Buliding Project with Hugo'
+echo '\n*** DEPLOY: Building Project with Hugo\n'
 hugo
