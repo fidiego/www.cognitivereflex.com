@@ -1,5 +1,7 @@
 #! /bin/sh
 
+echo '\n*** DEPLOY: HUGO_ENV='$(HUGO_ENV)
+
 echo '\n*** DEPLOY: Installing PostCSS CLI\n'
 npm install -g postcss-cli
 npm install -g autoprefixer
