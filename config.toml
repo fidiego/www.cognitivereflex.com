@@ -1,4 +1,4 @@
-baseURL = "https://www.cognitivereflex.org/"
+baseURL = "https://www.cognitivereflex.com/"
 languageCode = "en-us"
 title = "Cognitive Reflex"
 theme="tailwinds-theme"
