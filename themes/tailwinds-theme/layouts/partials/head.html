@@ -2,10 +2,10 @@
 <title>{{.Page.Title}} | {{.Site.Title}}</title>
 
 {{ if .Site.IsServer }}
+    <!-- .Site.IsServer -->
     {{ $style := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/dev/postcss.config.js") }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}">
+    <link rel="stylesheet" href="{{ $style.Permalink }}" type="text/css" comment=".Site.IsServer">
 {{ else }}
     {{ $style := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.js") | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+    <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" type="text/css">
 {{ end }}
-
