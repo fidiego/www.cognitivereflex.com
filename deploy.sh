@@ -1,6 +1,8 @@
 #! /bin/sh
 
 echo '\n*** DEPLOY: HUGO_ENV='$(HUGO_ENV)
+export HUGO_ENV="production"
+export HUGO_ENABLEGITINFO="true"
 hugo env
 
 echo '\n*** DEPLOY: Installing PostCSS CLI\n'
