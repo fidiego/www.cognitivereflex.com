@@ -1,7 +1,8 @@
 #! /bin/sh
 
 echo '\n*** DEPLOY: Installing PostCSS CLI\n'
-npm install postcss-cli
+npm install -g postcss-cli
+npm install -g autoprefixer
 
 echo '\n*** DEPLOY: Installing Tailwinds Theme Dependencies\n'
 cd themes/tailwinds-theme
