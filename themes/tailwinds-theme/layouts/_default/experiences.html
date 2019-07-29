@@ -1,0 +1,15 @@
+{{ define "main" }}
+{{ range .Pages.ByDate.Reverse }}
+<a class="link" href="{{.Permalink}}">
+        <div class="border border-t-0 border-l-0 border-r-0 border-dashed border-4 border-gray-600 p-4">
+                <h4 class="text-xl font-semibold">{{.Title}}</h4>
+                <div class="flex justify-between flex-wrap">
+                        <div class="italic">{{.Params.Role}}</div>
+                        <div>{{.Params.Range}}</div>
+                </div>
+                <p>{{.Description}}</p>
+                <p>{{.Description}}</p>
+        </div>
+</a>
+{{ end }}
+{{ end }}

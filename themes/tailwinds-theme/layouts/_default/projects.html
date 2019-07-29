@@ -1,0 +1,14 @@
+{{ define "main" }}
+{{ range .Pages }}
+<a class="link" href="{{.Permalink}}">
+        <div class="border border-t-0 border-l-0 border-r-0 border-dashed border-4 border-gray-600 p-4">
+                <h4 class="text-xl font-semibold">
+                        {{.Title}}
+                </h4>
+                <p>
+                {{.Description}}
+                </p>
+        </div>
+</a>
+{{ end }}
+{{ end }}

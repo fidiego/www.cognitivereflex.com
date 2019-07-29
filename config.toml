@@ -1,4 +1,20 @@
-baseURL = "http://www.cognitivereflex.com/"
+baseURL = "https://www.cognitivereflex.org/"
 languageCode = "en-us"
 title = "Cognitive Reflex"
-description = "What is a Cognitive Reflex?"
+theme="tailwinds-theme"
+
+author = "FI Diego"
+copyright = "Copyright © 2019, FI Diego, all rights reserved."
+
+# Code higlighting settings
+pygmentsCodefences = true
+pygmentsStyle = "vs"
+
+[params]
+    name = "Cognitive Reflex"
+    description = "Bit Jockey | Code Mechanic | Purveyor of fine APIs"
+
+    github_user = "fidiego"
+    github_repo = "https://github.com/fidiego/www.cognitivereflex.com"
+
+    favicon = "favicon.ico"
