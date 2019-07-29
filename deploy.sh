@@ -9,6 +9,7 @@ npm install
 
 echo '\n*** DEPLOY: Returning to Project Root\n'
 cd ../../
+echo 'Directory: ' $(pwd)
 ls
 
 echo '\n*** DEPLOY: Building Project with Hugo\n'
