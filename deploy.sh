@@ -18,4 +18,4 @@ echo 'Directory: ' $(pwd)
 ls
 
 echo '\n*** DEPLOY: Building Project with Hugo\n'
-hugo
+hugo --enableGitInfo
