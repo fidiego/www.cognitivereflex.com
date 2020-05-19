@@ -1,12 +1,12 @@
 [build]
 publish = "public"
 command = "./deploy.sh"
-NODE_VERSION = "14.2.0"
 
 [context.production.environment]
 HUGO_VERSION = "0.56.1"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
+NODE_VERSION = "14.2.0"
 
 [context.deploy-preview]
 command = "./deploy-preview.sh"
@@ -14,3 +14,4 @@ command = "./deploy-preview.sh"
 [context.deploy-preview.environment]
 HUGO_VERSION = "0.56.1"
 HUGO_ENV = "production"
+NODE_VERSION = "14.2.0"
