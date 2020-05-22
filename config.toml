@@ -2,6 +2,7 @@ baseURL = "https://www.cognitivereflex.com/"
 languageCode = "en-us"
 title = "Cognitive Reflex"
 theme="tailwinds-theme"
+staticDir = ["static",]
 
 author = "FI Diego"
 copyright = "Copyright © 2019, FI Diego, all rights reserved."
