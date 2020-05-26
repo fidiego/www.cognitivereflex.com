@@ -1,15 +1,17 @@
 <header class="w-full">
         <div class="p-4 md:p-6 lg:p-8 xl:p-10 flex justify-space-between">
-                <div class="max-w-4xl mx-auto w-full flex items-end justify-between flex-wrap">
-                        <div>
-                                <div
-                                        id="landing-image"
-                                        style="width: 120px; height: 120px; background-color: #253751; background-image: url(/profile.jpg); background-size: cover; background-repeat: no-repeat; background-position: center center; "
-                                        >
-                                </div>
+                <div class="max-w-4xl mx-auto w-full flex flex-col md:flex-row md:items-end md:justify-between flex-wrap">
+                        <div
+                             id="landing-image-container"
+                             style="width: 120px; height: 120px; background-color: #253751;">
+                                <picture id="landing-image">
+                                        <source srcset="/profile.webp" class="rounded rounded-sm">
+                                        <img src="/profile.jpg" class="rounded rounded-sm">
+                                </img>
+                                </picture>
                         </div>
                         <div class="flex-grow">
-                                <div class="h-full flex items-end justify-start px-6 md:px-8 max-w-lg">
+                                <div class="h-full flex items-end justify-start md:px-8 max-w-lg">
                                         <div>
                                                 <p class="text-3xl sm:text-4xl font-semibold">
                                                         Cognitive Reflex
@@ -20,8 +22,8 @@
                                         </div>
                                 </div>
                         </div>
+
                         <nav class="mt-6 md:mt-0 block w-full md:w-auto md:flex md:items-end">
-                                <!--
                                 <ul id="landing-nav-menu" class="flex flex-row md:flex-col md:items-end md:w-auto justify-between md:justify-end list-reset text-gray-200 pt-2 md:mt-0">
                                         <li class="mb-2">
                                                 <a href="/blog" class="inline-block sm:px-2 hover:text-blue-400">Blog</a>
@@ -36,8 +38,8 @@
                                                 <a href="/contact" class="inline-block sm:px-2 hover:text-blue-400">Contact</a>
                                         </li>
                                 </ul>
-                                -->
                         </nav>
+
                 </div>
         </div>
 </header>
