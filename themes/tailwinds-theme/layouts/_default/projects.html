@@ -7,6 +7,11 @@
                 </h4>
                 <p>
                 {{.Description}}
+
+                {{ if .Params.project_link }}
+                <a href="{{.Params.project_link}}" target="_blank">Visit</a>
+                {{ end }}
+
                 </p>
         </div>
 </a>

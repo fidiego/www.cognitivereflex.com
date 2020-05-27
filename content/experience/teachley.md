@@ -3,7 +3,7 @@ title: Teachley
 layout: experience
 role: Software Engineer
 range: September 2014 - September 2015
-description: Worked the whole stack to develop and deliver a platform for a series of education applications. Built an API/backend for apps and an interface for teachers to manage and monitor their classes' progression.
+description: Designed and implemented RESTful API services to collect gameplay data from educational games and built interfaces for interaction with learning insights.
 date: 2014-09-16
 ---
 

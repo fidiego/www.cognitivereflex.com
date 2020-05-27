@@ -3,7 +3,7 @@ title: Blue Ridge labs
 layout: experience
 role: Engineering Fellow
 range: May 2015 - September 2015
-description: Dipped my toes into civtech and learned about design thinking, what product managers are, and what good design research looks like.
+description: Worked with a product and design fellows to identify issues faced by low income New Yorkers. Conducted user-research to identify issues and designed and built prototype products to address them.
 date: 2015-05-01
 ---
 

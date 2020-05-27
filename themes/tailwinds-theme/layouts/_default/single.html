@@ -4,7 +4,12 @@
         <img src={{.Params.splash_img}} class="mb-4"/>
         {{ end }}
         <h1 class="font-bold text-3xl">{{ .Title }}</h1>
-        <p>{{.Description}}</p>
+        <p>{{.Description}}
+                {{ if .Params.project_link }}
+                <a href="{{.Params.project_link}}" target="_blank" class="underline">Project Website</a>
+                {{ end }}
+        </p>
+
         {{ .Content }}
 </article>
 {{ end }}
